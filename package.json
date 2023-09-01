@@ -1,0 +1,41 @@
+{
+  "name": "pdki-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.7",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@heroicons/react": "^1.0.4",
+    "axios": "^0.21.4",
+    "clsx": "^1.1.1",
+    "dayjs": "^1.11.5",
+    "formik": "^2.2.9",
+    "framer-motion": "^4.1.17",
+    "js-cookie": "^3.0.1",
+    "next": "11.1.2",
+    "prop-types": "^15.7.2",
+    "qs": "^6.10.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "^3.23.2",
+    "react-select": "^5.1.0",
+    "react-spring": "^8.0.27",
+    "yup": "^0.32.9",
+    "zustand": "^3.5.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}
